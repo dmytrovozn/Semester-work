@@ -11,7 +11,7 @@ while True:
         content = content.replace(word1, word2)
         break
 
-with open(r'D:\Программирование\5\Lab-works\text.txt', 'w', encoding='utf-8') as file:
+with open('text.txt', 'w', encoding='utf-8') as file:
         file.write(content)
     
 print(f"Слово '{word1}' замінено на '{word2}'.")
